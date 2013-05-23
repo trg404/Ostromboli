@@ -52,11 +52,17 @@ h1, h2, h3 { text-align: center; width: 100%; }
 
 div h1 { text-align: left }
 div h2 { text-align: center}
-#logo{ }
+#logo{
+	position: inherit;
+	z-index:1; }
 #topphoto{
+	position:absolute;
 	z-index:0;
 }
-#contact{ }
+#contact{
+	
+	position:absolute;
+	z-index:2; }
 #appetizers{ }
 #salads{ }
 #entrees{ }
@@ -80,4 +86,10 @@ padding-right:5px;
 #stromboli{
 	padding: 2px;
 	text-align:center;
+	}
+.picture{
+	opacity: 25;
+	z-index:0;
+	right: 275px;
+	position:absolute;
 	}
