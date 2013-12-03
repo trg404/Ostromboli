@@ -27,6 +27,75 @@
 
 
 
+<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide visible-lg" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/wine.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Hours</h1>
+              <div class="row">
+							<div class="col-xs-6">
+									Mon - Thurs
+								</div>
+							<div class="col-xs-6">
+									11am-10pm
+								</div>
+						</div>
+						<div class="row">
+								<div class="col-xs-6">
+									Fri and Sat
+								</div>
+								<div class="col-xs-6">
+									11am-11pm
+								</div>
+						</div>
+						
+							<div class="row">
+								<div class="col-xs-6">
+									Sun
+								</div>
+								<div class="col-xs-6">
+									12pm-9pm
+								</div>
+							</div>
+
+              
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/pasta.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/dough.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
 
 
 
@@ -51,7 +120,12 @@
 
 
 
-		<div class="row"> <!-- Logo hours and phone number-->
+
+
+
+
+
+		<div class="row hidden-lg"> <!-- Logo hours and phone number-->
 			<div class="col-xs-6 logo">
 			
 				<img src="img/OstromboliLogo.jpg" border="0" width="500" height="200" alt="OstromboliLogo" class="img-thumbnail">
@@ -128,7 +202,7 @@
 
 		<div class="row appetizers sides"><!-- Appetizers, soups and sides-->
 			<div class="col-sm-6 appetizers">
-				<h1> Appetizers</h1>
+				<h1 style="text-align:center;"> Appetizers</h1>
 				
 				<div class="row">
 					<div class="col-xs-7 name">
@@ -252,7 +326,7 @@
 
 			
 			<div class="col-sm-6 salads"> <!-- Soups and Sides -->
-				<h1> Soups and Sides</h1>
+				<h1 style="text-align:center;"> Soups and Sides</h1>
 				
 				<div class="row">
 					<div class="col-xs-7 name">
@@ -1297,7 +1371,7 @@
 <div class="row"><!-- Calzones and Strombolis-->
 
 	<div class="col-sm-6">
-		<h1> Stromboli</h1>
+		<h1 style="text-align:center;"> Stromboli</h1>
 	<div class="row">
 		<div class="col-xs-12 desc">
 			<div class="hidden-xs">
@@ -1355,7 +1429,7 @@
 
 
 	<div class="col-sm-6">
-		<h1> Calzones</h1>
+		<h1 style="text-align:center;"> Calzones</h1>
 		<div class="row">
 			<div class="col-xs-7">
 			</div>
@@ -1423,7 +1497,7 @@
 
 <div class="row"><!--Wings and Desserts-->
 	<div class="col-sm-6">
-		<h1>Wings</h1>
+		<h1 style="text-align:center;">Wings</h1>
 		<div class="row">
 			<div class="col-xs-12 desc hidden-xs">
 				Mild, Medium, Hot, Smokin, Teriyaki, Garlic, Caribbean, BBQ.
@@ -1459,7 +1533,7 @@
 	</div>
 
 <div class="col-sm-6"><!--Desserts-->
-	<h1> Desserts</h1>
+	<h1 style="text-align:center;"> Desserts</h1>
 	
 
 
@@ -1571,7 +1645,7 @@
 
 <div class="row"><!--Lunch-->
 	<div class="col-xs-12">
-		<h1>Lunch</h1>
+		<h1 style="text-align:center;">Lunch</h1>
 
 	<div class="row">
 		<div class="col-xs-7 name">
@@ -1868,14 +1942,8 @@
 
 
 
-
-
-
-
-
-
-
-
+<div class="footer" style="padding-top:50px;">
+</div>
 
 
 
@@ -1884,6 +1952,18 @@
 
 
 </div>
+
+ <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../docs-assets/js/holder.js"></script>
+
+
+
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
