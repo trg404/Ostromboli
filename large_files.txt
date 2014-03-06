@@ -1,0 +1,5 @@
+121858593 htdocs/img/food.jpg
+121858593 htdocs/img/Pizza.jpg
+65781957 htdocs/img/pasta.jpg
+2040912 htdocs/img/salad.jpg
+1124040 htdocs/img/dough.jpg
